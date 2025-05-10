@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    display: block;
+}
+
+body{
+    font: 400 20px/1.5 "Montserrat", sans-serif;
+    color: #81827f;
+}
+
+h1{
+    font-size: 131px;
+    color: #445032;
+    font-weight: 800;
+    line-height: 120px;
+    width: 850px;
+}
+
+h1 span{
+    font-size: 72px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #738755;
+    width: 850px;
+}
+
+h1 p{
+    width: 650px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #81827f;
+    font-family: "Poppins", sans-serif;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 25px;
+    padding: 30px  0;
+}
+
+.container{
+    width: 98%;
+    max-width: 1631px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+
+
+p{
+    margin-bottom: 25px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.lt{
+    float: left;
+}
+
+.rt{
+    float: right;
+}
+
+.clear{
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+
+.d-flx{
+    display: flex;
+}
+
+.sbtwn{
+    justify-content: space-between;
+}
+/*-------------------------*/
+
+.pageHeader{
+    position: relative;
+    height: 1000px;
+    background-color: #fafbf8;
+    overflow: hidden;
+}
+
+
+.pageHeader .mainNav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    
+}
+
+.mainNav ul li{
+    font-size: 40px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.mainNav a{
+    display: block;
+    color: #445032;
+    font-weight: 500;
+    padding: 27px 15px;
+    font-size: 18px;
+}
+
+.mainNav a:hover{
+    background-color: #abc07e;
+    color: #fff;
+}
+
+
+.mainNav{
+    position: relative;
+    top: 40px;
+    z-index: 110;
+    padding-left: 145px;
+    padding-right: 145px;
+}
+
+.back-1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 80;
+}
+
+
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.ship{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 120;
+}
+
+.textcont{
+    position: absolute;
+    top: 280px;
+    width: 850px;
+    z-index: 130;
+}
+
+.icons i{
+    padding: 50px 15px;
+    color: #445032;
+    font-size: 15px;
+}
+
+.icons i span{
+    color: #445032;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    padding: 0 10px;
+}
+
+.social{
+    display: flex;
+    justify-content: left;
+}
+
+.social li{
+    color: #445032;
+    margin-right: 30px;
+}
+
+.Destination{
+    position: relative;
+    height: 800px;
+
+}
+
+.Destination .top{
+    display: grid; 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    width: 100%;
+}
+
+.Destination h2{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #445032;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Destination .txtcont p{
+    text-align: center;
+    width: 1000px;
+    padding-left: 320px;
+    padding-top: 30px;
+}
+
+.top{
+    padding-top: 90px;
+}
+
+.top p{
+    font-size: 24px;
+    color: #b0b4a9;
+    padding-left: 105px;
+    padding-top: 25px;
+}
+
+.top p:hover{
+    color: #0f8989;
+}
+
+.top p span{
+    font-size: 16px;
+    color: #aaaaaa;
+    text-align: center;
+}
+
+.tour{
+    position: relative;
+    height: 1250px;
+    background-color: #fafbf8;
+    background-position: center;
+    background-size: cover;
+}
+
+.tour h4{
+    font-size: 30px;
+    color: #738755;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour p{
+    width: 1060px;
+    color: #445032;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.text strong{
+    font-size: 23px;
+    color: #81827f;
+    padding: 30px 0;
+    font-weight: 600;
+}
+
+.tour .left{
+    width: 1051px;
+    position: relative;
+    float: left;
+}
+
+.icon i{
+    font-size: 18px;
+}
+
+.btn{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #738755;
+    padding: 15px 24px;
+    transition: .5s;
+    border-radius: 5px;
+    margin: 40px 0;
+}
+
+.tour .right{
+    position: relative;
+    box-sizing: border-box;
+    width: 517px;
+    float: right;
+}
+
+.right .text p{
+    width: 515px;
+}
+
+.tourtrans{
+    padding: 100px 0;
+}
+
+.area h2{
+    /* /font-size: 48px;/ */
+    font-size: 1vw;
+    line-height: 1;
+    color: #445032;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 77px;
+}
+
+.planDetails{
+    position: relative;
+    padding-bottom: 112px;
+}
+
+.planDetails .road{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -40px;
+    width: 81px;
+    height: 100%;
+    border-radius: 40px;
+    background: url(../images/way.png) no-repeat 0 0;
+    background-size: auto 100%;
+
+}
+
+.planDetails .car{
+    position: sticky;
+    top: 70%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.steps li{
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 200px;
+    position: relative;
+    margin-top: 220px;
+}
+
+.steps li div{
+    padding-bottom: 45px;
+    border-bottom: dashed 1px #445032;
+    position: relative;
+}
+
+.steps li:nth-child(2n+1) div::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50%;
+    border-bottom: dashed 1px #445032;
+    left: -200px;
+    bottom: 78px;
+    transform: rotate(45deg);
+
+}
+
+.steps li:nth-child(2n) div::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50%;
+    border-bottom: dashed 1px #445032;
+    right: -190px;
+    bottom: 78px;
+    transform: rotate(-45deg);
+
+}
+
+.steps li:first-child{
+    margin-top: 0;
+}
+
+.steps li:nth-child(2n){
+    float: right;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 200px;  
+}
+
+.steps li span{
+    display: block;
+    width: 115px;
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+    border-radius: 100%;
+    border: dashed 1px #445032;
+    position: absolute;  
+    background-color: #fff;
+    z-index: 999; 
+}
+
+.steps li:nth-child(2n+1) span{
+    left: 0;
+    top: 0;
+}
+
+.steps li:nth-child(2n) span{
+    right: 0;
+    top: 0;
+}
+
+.list li{
+    background-color: #abc07e;
+    color: #000;
+}
+
+.list li:first-child{
+    background-color: #738755;
+}
+
+.steps li:nth-child(2n) {
+    text-align: left;
+    top: 120px;
+    right: 100px;
+}
+
+.area h2{
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.steps li:nth-child(2n+1){
+    left: 100px;
+}
+
+.steps li img{
+    position: absolute;
+    right: 13px;
+    top: -210px;
+    z-index: 999;
+}
+
+/* .review{
+    height: 1000px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.textarea{
+    width: 670px;
+    float: left;
+}
+
+.textarea h4{
+    font-size: 26px;
+}
+
+.textarea p{
+    font-size: 18px;
+} */
+
+.testimonials{
+    background-color: #fafbf8;
+    /* background: url(../images/video-img.png) no-repeat 100% 50%; */
+    height: 1100px;
+    position: relative;
+}
+
+.testimonials .textCont{
+    width: 45%;
+    padding-bottom: 0;
+
+}
+
+.testimonials h3{
+    text-align: center;
+    color: #657350;
+    font-weight: 600;
+}
+
+.testimonials h2{
+    font-size: 26px;
+    text-align: left!important;
+    padding: 20px 0;
+    color: #74815f;
+}
+
+.testimonials P{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 200;
+    font-style: italic;
+    color: #798369;
+}
+
+.testimonials .clientTXT{
+    padding: 30px 0;
+    background: url(../images/coma.png) no-repeat 0 0, url(../images/coma.btm.png) no-repeat 100% 100%;
+  
+}
+
+.testimonials .right img{
+    position: absolute;
+    top: 300px;
+    right: 120px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.watch{
+    position: absolute;
+    top: 530px;
+    right: 400px;
+}
+
+.watch i{
+    color: #fff;
+    font-size: 60px;
+    padding-left: 100px;
+}
+
+.watch h2{
+    color: #fff;
+}
+
+.blog{
+    height: 800px;
+    position: relative;
+    padding: 100px 0;
+}
+
+.blog h3{
+    text-align: center;
+}
+
+.blog .textarea{
+    width: 50%;
+    float: left;
+    padding: 100px 0;
+}
+
+.blog .textarea h4{
+    width: 615px;
+    font-size: 26px;
+    padding: 50px 0;
+}
+
+.blog .textarea p{
+    width: 615px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.blog .imgarea img{
+    position: absolute;
+    top: 300px;
+    right: 120px;
+    width: 940px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+
+
+.serviceBox{
+    box-sizing: border-box;
+    border-style: dotted;
+    border: dashed 2px #445032;
+    margin: 100px 0;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 40px 20px;
+}
+
+
+.servicelist p{
+    font-size: 18px;
+    line-height: 24px;
+    width: 400px;
+    padding: 0;
+}
+
+.servicelist h3{
+    font-size: 32px;
+    line-height: 30px;
+    color: #000000;
+
+}
+
+.serviceBox .servicelist{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 80px;
+}
+
+.serviceBox .servicelist li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer{
+    background: url(../images/footer-bg.png)no-repeat 100% 100%;
+    height: 800px;
+    padding: 50px 0;
+    position: relative;
+}
+
+
+.footer p{
+    padding: 20px 0;
+    font-size: 16px;
+    width: 390px;
+}
+
+.footer .foot img{
+    padding-top: 70%;
+}
+
+
+.footer .container{
+    position: relative;
+    top: 200px;
+    left: 0;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.footer h2,a{
+    color: #fff;
+}
+
+.footer h2{
+    padding: 100px 0;
+}
+
+/* .contact-form{
+    position: absolute;
+    top: 30px;
+    right: 400px;
+
+} */
+
+
+.contact-form form h2{
+    color: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 30px;
+}
+form label{
+    display: block;
+    
+}
+form label input[type="text"], form label textarea, form label input[type="submit"]{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 0;
+    width: 90%;
+
+}
+
+form label textarea{
+    height: 100px;
+}
+
+form label input[type="submit"]{
+    background-color: #000;
+    color: #FFF!important;
+    padding: 10px 50px;
+    background-color: #738755;
+    transition: .5s;
+    width: auto;
+}
+
+
+
